@@ -1,0 +1,44 @@
+/* Add this CSS code to your existing styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.card {
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: calc(50% - 30px);
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    max-width: calc(33.33% - 30px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    max-width: calc(25% - 30px);
+  }
+}
+.bg_color {
+  background-image: url(https://api.foodso.me/uploads/frctExzx.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+   background-size: cover;
+}
